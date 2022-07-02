@@ -1,0 +1,20 @@
+@import "../../../scss/main.scss";
+
+.button {
+  font: inherit;
+  border: 1px solid $gray;
+  color: $gray;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.button:hover,
+.button:active {
+  background-color: $gray;
+  color: #fff;
+}
+
+.button:focus {
+  outline: none;
+}
