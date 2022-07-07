@@ -1,15 +1,12 @@
-// @import '../../../scss/settings/mixins';
-// @import '../../../scss/main.scss';
-@use '../../../scss/settings/fonts';
-@use '../../../scss/settings/mixins';
+@use '../../../scss/abstract/'as a;
 
 .ul {
-  @include flex(row, space-between, center);
-  font-size: $f18;
+  @include a.flex(row, space-between, center);
+  font-size: a.$f18;
 
 }
 
 .active {
-  border: 0.75px solid $gray;
+  border: 0.75px solid a.$gray;
   padding: 1em;
 }

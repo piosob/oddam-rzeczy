@@ -1,15 +1,11 @@
-// @import '../../../scss/main.scss';
-// @import '../../../scss/settings/mixins';
-// @import '../../../scss/settings/_mixins.scss';
-// @use '../../../scss/settings/_mixins.scss';
-@use '../../../scss/settings/mixins'
+@use '../../../scss/abstract/'as a;
 
 .login-btns-container {
   margin-top: 2em;
   grid-column: 4/-1;
   grid-row: 1/1;
-  @include flex(row, space-between, center);
-  font-size: $f14;
+  @include a.flex(row, space-between, center);
+  font-size: a.$f14;
 
   button {
     padding: .5em;
@@ -17,6 +13,10 @@
   }
 }
 
+.non-active {
+  border: none;
+}
+
 .active {
-  border: 0.75px solid $border;
+  border: 0.75px solid a.$border;
 }

@@ -1,5 +1,6 @@
+import classes from "./HomeThreeColumns.module.scss";
 const HomeThreeColumns = () => {
-  return <p>HomeThreeColumns</p>;
+  return <div className={classes.HomeThreeColumns}></div>;
 };
 
 export default HomeThreeColumns;

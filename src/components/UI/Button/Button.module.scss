@@ -1,9 +1,9 @@
-@import "../../../scss/main.scss";
+@use '../../../scss/abstract/'as a;
 
 .button {
   font: inherit;
-  border: 1px solid $gray;
-  color: $gray;
+  border: 1px solid a.$gray;
+  color: a.$gray;
   padding: 0.25rem 1rem;
   cursor: pointer;
   transition: .3s;
@@ -11,7 +11,7 @@
 
 .button:hover,
 .button:active {
-  background-color: $gray;
+  background-color: a.$gray;
   color: #fff;
 }
 

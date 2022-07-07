@@ -1,1 +1,7 @@
-@import 'settings';
+@use './settings/reset';
+@use './abstract/fonts';
+
+
+body {
+  font-family: fonts.$font-base;
+}

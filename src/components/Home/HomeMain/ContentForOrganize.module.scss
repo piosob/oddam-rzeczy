@@ -1,0 +1,30 @@
+@use '../../../scss/abstract/'as a;
+
+.content-for-organize-container {
+  grid-column: 7/12;
+  grid-row: 2/3;
+  @include a.flex(column, center, center);
+  text-align: center;
+  gap: 2em
+}
+
+.heading {
+  font-size: a.$f38;
+  letter-spacing: -0.76px;
+}
+
+.span {
+  display: block;
+}
+
+.btns-actions {
+  @include a.flex(row, space-between, center);
+  gap: 1em;
+}
+
+.button {
+  font-size: a.$f36;
+  width: 50%;
+  font-weight: 300;
+  min-height: 108px;
+}
