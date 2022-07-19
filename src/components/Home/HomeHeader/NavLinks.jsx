@@ -1,5 +1,6 @@
 // import { Link } from "react-scroll";
 import classes from "./NavLinks.module.scss";
+
 const Navlinks = () => {
   return (
     <ul className={classes.ul}>

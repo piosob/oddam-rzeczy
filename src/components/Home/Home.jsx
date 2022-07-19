@@ -1,13 +1,24 @@
-import HomeHeader from "./HomeHeader/HomeHeader";
+import {
+  HomeHeader,
+  HomeMain,
+  HomeThreeColumns,
+  HomeFourSteps,
+  HomeAbout,
+  HomeWhoWeHelp,
+  HomeContact,
+} from "./index";
 import classes from "./Home.module.scss";
-import HomeMain from "./HomeMain/HomeMain";
-import HomeThreeColumns from "./HomeThreeColumns/HomeThreeColumns";
+
 export const Home = () => {
   return (
     <div className={classes.container}>
       <HomeHeader />
       <HomeMain />
       <HomeThreeColumns />
+      <HomeFourSteps />
+      <HomeAbout />
+      <HomeWhoWeHelp />
+      <HomeContact />
     </div>
   );
 };

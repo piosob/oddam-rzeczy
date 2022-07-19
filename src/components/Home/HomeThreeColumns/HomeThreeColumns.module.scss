@@ -1,5 +1,11 @@
+@use '../../../scss/abstract/'as a;
+
 .HomeThreeColumns {
+  padding: 3em 10em 6em 10em;
   grid-column: 1/-1;
   grid-row: 3/4;
-  border: 2px solid red;
+  background-color: a.$border;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 6em;
 }

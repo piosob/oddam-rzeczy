@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Home, PageNotFound } from './components'
+import { Home, PageNotFound } from './components';
+
 function App() {
   return (
     <BrowserRouter>

@@ -1,5 +1,6 @@
 import Button from "../../UI/Button/Button";
 import classes from "./LoginSection.module.scss";
+
 const LoginSection = () => {
   return (
     <aside className={classes["login-btns-container"]}>

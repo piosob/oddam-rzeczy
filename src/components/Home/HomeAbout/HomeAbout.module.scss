@@ -1,0 +1,42 @@
+@use '../../../scss/abstract/'as a;
+
+.home-about-container {
+  grid-column: 1/-1;
+  grid-row: 5/6;
+  @include a.flex(row, center, center);
+  color: a.$gray;
+  text-align: center;
+}
+
+.about-area {
+  background-color: a.$light-gray;
+  min-height: 100%;
+  @include a.flex(column, center, center);
+}
+
+.section-about {
+  padding: 2em 0;
+  max-width: 50%;
+  @include a.flex(column, center, center);
+  gap: 2em;
+}
+
+.h3 {
+  font-size: a.$f38;
+  font-weight: 400;
+  letter-spacing: -0.76px;
+}
+
+.description {
+  font-size: a.$f30;
+  letter-spacing: -0.6px;
+  line-height: 1.5em;
+}
+
+.signature {
+  align-self: flex-end;
+}
+
+.img {
+  max-width: 50%;
+}

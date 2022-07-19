@@ -1,0 +1,9 @@
+@use '../../../scss/abstract/'as a;
+
+.p {
+  font-size: a.$f22;
+  letter-spacing: 0px;
+  line-height: 1em;
+  margin: 2em 0;
+  width: 50%;
+}
